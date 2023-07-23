@@ -1,0 +1,275 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    height:auto;
+    width: 75%;
+    margin: 5px auto;
+    background-color:white;
+}
+.header{
+    width: 100%;
+    height: 175px;
+    background-color: brown;
+    display: grid;
+    padding: 20px 0;
+    grid-template-columns: 1fr 12fr;
+    border: 1px solid black;
+    box-sizing: border-box;
+
+}
+.header>div>img{
+    height: 150px;
+    width: 150px;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+.header>div>p{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+
+    
+}
+h3{
+    color: white;
+    font-size: 30px;    
+    text-align: center;
+}
+
+.navbar{
+    /* padding: 10px; */
+    height: 40px;
+
+    background-color: black;
+}
+.navbar ul{
+    /* padding-top: 5px; */
+/* margin-left: 20px; */
+}
+
+.navbar ul li{
+    padding: 10px 20px;
+    float: left; 
+    list-style: none;
+    /* margin-left: 20px 20px; */
+    border-left:1px solid white;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar ul li a:hover{
+    color: yellow;
+}
+.movement{
+    margin-top: 15px;
+    color: rgb(17, 17, 151);
+    font-size: 17px;
+    font-weight: 700;
+}
+.movement a{
+    color: rgb(17, 17, 151);
+    margin-left: 50px;
+    
+}
+.fb{
+    margin: 5px auto;
+    padding: 10px;
+    width: 30%;
+    height: 20px;
+    background-color: blue;
+    text-align: center;
+    
+}
+.fb a{
+    font-size: 20px;
+    
+    color: white;
+}
+
+
+/* topic ------------------------------------------------------------------------ */
+.topic{
+    width: 100%;
+    height: auto;
+    background-color: chartreuse;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.topicitem{
+    border: 3px solid white;
+    height: 80px;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+.topicitem h2{
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 5px;
+}
+.ist{
+    background-color: rgb(73, 133, 13);
+}
+.snd{
+    background-color: blue;
+}
+.trd{
+    background-color: orange;
+}
+.for{
+    background-color: brown;
+}
+.fiv{
+    background-color: red;
+}.six{
+    background-color: green;
+}.svn{
+    background-color:pink;
+}
+.eht{
+    background-color: rgb(116, 209, 238);
+}
+/* topic end ------------------------------------------------------------------- */
+
+.main{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* submainpart has started****** */
+.submain{
+    width: 90%;
+    height: auto;
+    border: brown solid 2px;
+    margin: 40px 5%;
+}
+.submainheading{
+    width: 100%;
+    height: 35px;
+    background-color: brown;
+}
+.submainheading h2{
+    color: white;
+    text-align: center;
+}
+.submainlink{
+    margin-left: 30px;
+    margin-top: 20px;
+
+}
+.submainlink a{
+    /* margin-top: 10px; */
+    font-size: 18px;
+    color: rgb(95, 131, 250);
+    /* padding: 5px; */
+    
+}
+.submainlink ul li{
+    margin-top: 10px;
+    margin-right: 5px;
+}
+/* submain link has ended ******** */
+
+/* the answer key and syllabus has started**** */
+.information{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.informationitem{
+    width: 90%;
+    height: 250px;
+    display: grid;
+    margin-left: 20px;
+    
+        grid-template-columns: 1fr 1fr;
+    
+    
+}
+.answerkey{
+    width: 100%;
+    height: auto;
+    border: 2px solid brown;
+}
+
+.syllabus{
+    width: 100%;
+    height: auto;
+    border: 2px solid brown;
+    margin-left: 32px;
+}
+.certificate{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    border: 2px solid brown;
+}
+
+.important{
+    width: 100%;
+    height: auto;
+    border: 2px solid brown;
+    margin-left: 32px;
+    margin-top: 30px;
+
+}
+.admission{
+    width: 90%;
+    margin-left: 20px;
+    height: auto;
+    border: 2px solid brown;
+
+}
+.heading{
+    width: 100%;
+    height:40px;
+    background-color: brown;
+}
+/* now the all link part is completed******* */
+.conclusion{
+    width: 100%;
+    height: auto;
+    border: 2px solid brown;
+    margin-top: 100px;
+
+}
+.conclusion p{
+    margin: 30px auto;
+    text-align: center;
+    font-size: 18px;
+    /* height: 220px; */
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    /* border: 2px solid brown; */
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 1fr 1fr ;
+}
+.footer div{
+    margin-left: 20px;
+}
+.footer ul li{
+    list-style: none;
+    color: rgb(119, 116, 116);
+    margin-top: 10px;
+    
+}
+.para{
+    width: 100%;
+    height: 100px;
+}
